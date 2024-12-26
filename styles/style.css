@@ -1,0 +1,114 @@
+body {
+  color: #fff;
+  background: #273549;
+
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  width: 550px;
+  background: #1f2937;
+  border-radius: 5px;
+}
+
+header {
+  height: 285px;
+  background: #6943ff;
+  padding: 34px 51px;
+}
+
+h1 {
+  font-size: 1.75rem;
+  line-height: 2.375rem;
+  font-weight: 800;
+  letter-spacing: -0.0525rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+
+  margin-top: 30px;
+}
+
+input {
+  width: 117px;
+  height: 83px;
+  padding: 5px;
+
+  border-radius: 5px;
+  border: 2px solid #b295ff;
+
+  font-size: 3.625rem;
+  line-height: 1;
+  font-weight: 800;
+
+  -moz-appearance: textfield;
+}
+
+button {
+  padding: 9px 27px;
+  border-radius: 5px;
+
+  color: #3d3d3d;
+  background: #fff;
+
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 500;
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  scale: 0.97;
+}
+
+.conversion-cards {
+  height: calc(100% - 285px);
+  padding: 36px 25px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.conversion-cards section {
+  background: #273549;
+  padding: 31px 14px 19px;
+  border-radius: 5px;
+}
+
+h2 {
+  color: #ccc1ff;
+  font-size: 1.25rem;
+  line-height: 1;
+  font-weight: 600;
+
+  margin-bottom: 9px;
+}
+
+p {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
