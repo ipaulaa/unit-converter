@@ -17,6 +17,7 @@ btn.addEventListener("click", () => {
   if (input.value) {
     value = input.value;
     input.value = "";
+    input.focus();
   } else {
     value = 0;
   }

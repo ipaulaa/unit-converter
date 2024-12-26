@@ -57,6 +57,10 @@ input {
   -moz-appearance: textfield;
 }
 
+input:focus {
+  border-color: #fff;
+}
+
 button {
   padding: 9px 27px;
   border-radius: 5px;
