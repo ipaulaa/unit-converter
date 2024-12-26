@@ -17,6 +17,7 @@ main {
   width: 550px;
   background: #1f2937;
   border-radius: 5px;
+  overflow: hidden;
 }
 
 header {
