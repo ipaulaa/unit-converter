@@ -18,41 +18,27 @@
       <main>
         <header>
           <h1>Metric/Imperial Unit Conversion</h1>
-          <form>
-            <input type="number" />
-            <button type="submit">Convert</button>
-          </form>
+          <div class="input-container">
+            <input id="input" type="number" />
+            <button id="btn">Convert</button>
+          </div>
         </header>
         <div class="conversion-cards">
           <section>
             <h2>Length (Meter/Feet)</h2>
-            <p>
-              <span class="value">20</span> =
-              <span class="feet-value">65.616</span> feet |
-              <span class="value">20</span> feet =
-              <span class="meters-value">6.096</span> meters
-            </p>
+            <p id="length-el"></p>
           </section>
           <section>
             <h2>Volume (Liters/Gallons)</h2>
-            <p>
-              <span class="value">20</span> =
-              <span class="gallons-value">5.284</span> gallons |
-              <span class="value">20</span> feet =
-              <span class="liters-value">75.708</span> liters
-            </p>
+            <p id="volume-el"></p>
           </section>
           <section>
             <h2>Mass (Kilograms/Pounds)</h2>
-            <p>
-              <span class="value">20</span> =
-              <span class="pounds-value">44.092</span> pounds |
-              <span class="value">20</span> feet =
-              <span class="kilos-value">9.072</span>
-            </p>
+            <p id="mass-el"></p>
           </section>
         </div>
       </main>
     </div>
+    <script src="scripts/script.js"></script>
   </body>
 </html>

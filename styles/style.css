@@ -32,7 +32,7 @@ h1 {
   letter-spacing: -0.0525rem;
 }
 
-form {
+.input-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
