@@ -18,6 +18,7 @@ main {
   background: #1f2937;
   border-radius: 5px;
   overflow: hidden;
+  margin: 50px 0;
 }
 
 header {
